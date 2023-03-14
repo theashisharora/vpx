@@ -11,9 +11,13 @@ const Footer = () => {
 				<a href="https://reactjs.org/" className="text-blue-200">
 					React
 				</a>
-				, and{" "}
+				,{" "}
 				<a href="https://tailwindcss.com/" className="text-blue-200">
 					Tailwind CSS
+				</a>
+				, and
+				<a href="https://framer.com/motion/" className="text-blue-200">
+					Framer Motion
 				</a>
 				.
 			</p>
