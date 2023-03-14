@@ -1,4 +1,12 @@
 ---
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
+import Logo from "../components/Logo";
+import Platform from "../components/Platform";
+
+import "@fontsource/lato";
+import "@fontsource/poppins";
+import "@fontsource/raleway";
 ---
 
 <html lang="en">
@@ -7,9 +15,34 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Daniel Thorp for VP External</title>
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="h-full">
+		<Logo client:load />
+		<Hero client:load />
+		<Platform client:load />
+		<Footer />
 	</body>
 </html>
+
+<style is:global>
+	*,
+	*::before,
+	*::after {
+		box-sizing: border-box;
+	}
+
+	html {
+		color-scheme: dark;
+	}
+
+	html,
+	body {
+		height: 100%;
+	}
+
+	body {
+		margin: 0;
+		height: 100vh;
+	}
+</style>
