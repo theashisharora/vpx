@@ -25,7 +25,7 @@ const OnScroll = ({ children, transition }: MotionProps) => {
 			initial="hidden"
 			variants={{
 				visible: { opacity: 1, y: 0 },
-				hidden: { opacity: 0, y: 100 },
+				hidden: { opacity: 0, y: 50 },
 			}}
 			transition={transition}
 		>
