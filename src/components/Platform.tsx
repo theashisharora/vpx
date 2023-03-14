@@ -34,14 +34,14 @@ const Platform = () => {
 					your ideas and feedback and look forward to working together to create a stronger, more connected
 					IEEE community. Thank you for considering my candidacy, and I hope to earn your support in the
 					upcoming election.
-				</p>
+				</p>,
 			)}
 		</main>
 	);
 };
 
 const wrapChildren = (...children: JSX.Element[]) => {
-	return Children.map(children, child => {
+	return Children.map(children, (child) => {
 		return <OnScroll transition={{ duration: 0.5, delay: 0.5 }}>{child}</OnScroll>;
 	});
 };
