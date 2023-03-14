@@ -15,7 +15,7 @@ const Footer = () => {
 				<a href="https://tailwindcss.com/" className="text-blue-200">
 					Tailwind CSS
 				</a>
-				, and
+				, and{" "}
 				<a href="https://framer.com/motion/" className="text-blue-200">
 					Framer Motion
 				</a>
