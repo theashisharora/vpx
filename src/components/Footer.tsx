@@ -1,9 +1,13 @@
+import { t } from "../i18n";
+
 const Footer = () => {
 	return (
 		<footer className="p-4 text-center text-sm text-gray-400">
-			<p>Copyright © 2023 Daniel Thorp. All rights reserved.</p>
 			<p>
-				Made with{" "}
+				<>{t("footer.copyright")}</>
+			</p>
+			<p>
+				<>{t("footer.made-with")} </>
 				<a href="https://astro.build/" className="text-blue-200">
 					Astro
 				</a>

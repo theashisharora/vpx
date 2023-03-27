@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { t } from "../i18n";
 import { Fade, Reveal, Slide } from "./animations";
 
 const Hero = () => {
@@ -15,7 +16,7 @@ const Hero = () => {
 	return (
 		<header className="flex h-screen flex-col items-center justify-end overflow-x-hidden p-8">
 			<Fade transition={{ duration: 1 }}>
-				<div className="-z-10 h-1/4 opacity-30">
+				<div className="pointer-events-none -z-10 h-1/4 opacity-30">
 					<img
 						src="/vpx/hth.webp"
 						alt="Hack the Hill"
@@ -56,12 +57,16 @@ const Hero = () => {
 			</Fade>
 			<Fade transition={{ duration: 5 }}>
 				<Slide transition={{ delay: 1, duration: 3 }} direction="left">
-					<h1 className="text-center text-[10vmin] font-bold text-blue-200">VP External</h1>
+					<h1 className="text-center text-[10vmin] font-bold text-blue-200">
+						<>{t("hero.title")}</>
+					</h1>
 				</Slide>
 			</Fade>
 			<Fade transition={{ duration: 5 }}>
 				<Slide transition={{ delay: 1, duration: 3 }} direction="right">
-					<h2 className="text-center text-[5vmin] font-bold text-blue-300">April 2nd - 3rd</h2>
+					<h2 className="text-center text-[5vmin] font-bold text-blue-300">
+						<>{t("hero.dates")}</>
+					</h2>
 				</Slide>
 			</Fade>
 		</header>
