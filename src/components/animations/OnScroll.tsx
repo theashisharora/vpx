@@ -7,7 +7,7 @@ const OnScroll = ({ children, transition }: MotionProps) => {
 	const controls = useAnimation();
 	const [ref, inView] = useInView({
 		triggerOnce: true,
-		threshold: 0.5,
+		threshold: 0,
 	});
 
 	useEffect(() => {
