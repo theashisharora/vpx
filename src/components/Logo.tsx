@@ -2,8 +2,8 @@ import Fade from "./animations/Fade";
 
 const Logo = () => {
 	return (
-		<Fade transition={{ duration: 5 }}>
-			<img src="/ieee-vp-external/images/IEEE.svg" className="absolute top-8 left-8 w-48" />
+		<Fade transition={{ duration: 1 }}>
+			<img src="/vpx/images/IEEE.svg" className="absolute top-8 left-8 w-48" />
 		</Fade>
 	);
 };
