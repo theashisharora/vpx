@@ -62,7 +62,13 @@ const Hero = () => {
 			</Fade>
 			<Fade transition={{ duration: 5 }}>
 				<Slide transition={{ delay: 1, duration: 3 }} direction="right">
-					<h2 className="text-center text-[5vmin] font-bold text-blue-300">{t("hero.dates")}</h2>
+					<a
+						href="https://democracy.smallminds.dev/election/71383aee-6d57-4974-b01a-46e940e568e6"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<h2 className="text-center text-[5vmin] font-bold text-blue-300">{t("hero.dates")}</h2>
+					</a>
 				</Slide>
 			</Fade>
 		</header>
