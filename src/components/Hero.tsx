@@ -57,16 +57,12 @@ const Hero = () => {
 			</Fade>
 			<Fade transition={{ duration: 5 }}>
 				<Slide transition={{ delay: 1, duration: 3 }} direction="left">
-					<h1 className="text-center text-[10vmin] font-bold text-blue-200">
-						<>{t("hero.title")}</>
-					</h1>
+					<h1 className="text-center text-[10vmin] font-bold text-blue-200">{t("hero.title")}</h1>
 				</Slide>
 			</Fade>
 			<Fade transition={{ duration: 5 }}>
 				<Slide transition={{ delay: 1, duration: 3 }} direction="right">
-					<h2 className="text-center text-[5vmin] font-bold text-blue-300">
-						<>{t("hero.dates")}</>
-					</h2>
+					<h2 className="text-center text-[5vmin] font-bold text-blue-300">{t("hero.dates")}</h2>
 				</Slide>
 			</Fade>
 		</header>
