@@ -3,7 +3,7 @@ export default {
 	description: "Daniel Thorp's IEEE uOttawa VP External campaign website",
 	hero: {
 		title: "IEEE VP External",
-		dates: "April 2nd to 3rd",
+		dates: "Vote April 2nd to 3rd",
 	},
 	platform: `My name is Daniel Thorp, a 1st year Software Engineering student, and I'm running for IEEE VP External.
 

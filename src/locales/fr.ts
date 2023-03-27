@@ -3,7 +3,7 @@ export default {
 	description: "Site web de la campagne de Daniel Thorp pour le poste de VP Externe de l'IEEE uOttawa",
 	hero: {
 		title: "IEEE VP Externe",
-		dates: "2 à 3 avril",
+		dates: "Votez du 2 à 3 avril",
 	},
 	platform: `Je m'appelle Daniel Thorp, étudiant en première année de génie logiciel, et je me présente pour le poste de vice-président externe de l'IEEE.
 
