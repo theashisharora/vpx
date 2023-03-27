@@ -14,7 +14,7 @@ const Hero = () => {
 	}, []);
 
 	return (
-		<header className="flex h-screen flex-col items-center justify-end overflow-x-hidden p-8">
+		<header className="flex flex-col items-center justify-end overflow-x-hidden p-8 supports-[height:100cqh]:h-[100cqh] supports-[height:100svh]:h-[100svh]">
 			<Fade transition={{ duration: 1 }}>
 				<div className="pointer-events-none -z-10 h-1/4 opacity-30">
 					<img
