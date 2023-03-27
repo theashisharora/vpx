@@ -1,10 +1,16 @@
 import { motion } from "framer-motion";
 import type { MotionProps } from "./types";
 
-const Slide = ({ children, transition, side }: MotionProps & { side: "left" | "right" }) => {
+type Direction = "top" | "left" | "bottom" | "right";
+
+type SlideProps = MotionProps & {
+	direction: Direction;
+};
+
+const Slide = ({ children, transition, direction }: SlideProps) => {
 	return (
 		<motion.div
-			initial={{ x: side === "left" ? "-100vw" : "100vw" }}
+			initial={{ x: direction === "left" ? "-100vw" : "100vw" }}
 			animate={{
 				x: 0,
 				transition,

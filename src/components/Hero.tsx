@@ -48,7 +48,7 @@ const Hero = () => {
 			</Fade>
 
 			<Fade transition={{ duration: 5 }}>
-				<Slide transition={{ delay: 1, duration: 3 }} side="left">
+				<Slide transition={{ delay: 1, duration: 3 }} direction="left">
 					<h1 className="text-center text-[5vmin] font-bold text-blue-200">VOTE</h1>
 				</Slide>
 			</Fade>
@@ -60,7 +60,7 @@ const Hero = () => {
 				</Reveal>
 			</Fade>
 			<Fade transition={{ duration: 5 }}>
-				<Slide transition={{ delay: 1, duration: 3 }} side="right">
+				<Slide transition={{ delay: 1, duration: 3 }} direction="right">
 					<h1 className="text-center text-[10vmin] font-bold text-blue-200">VP External</h1>
 				</Slide>
 			</Fade>
